@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../../web development project/Backend/5.3 Axios"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "weather app",
+		"liveServer.settings.port": 5501
+	}
+}

@@ -1,0 +1,105 @@
+body {
+    /* background-color: black; */
+    height: 100vh;
+    width: 100%;
+    background-color: white;
+  }
+  
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .container{
+    padding: 50px 30px;
+    margin: 60px 380px;
+    height: 80%;
+    width: 40%;
+    background: conic-gradient(rgb(0, 0, 0), rgba(128, 128, 128, 0.774));
+    
+    display: flex;
+    flex-flow: column;
+    /* align-items: center; */
+    /* justify-content: center; */
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  }
+
+  .search {
+    height: 45px;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  .inp{
+    height: 100%;
+    border-radius: 20px;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    text-align: center;
+    top: -30px; 
+  }
+  .btn{
+    height: 37px;
+    width: 37px;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-weight: bold; */
+    font-size: 15px;
+    position: relative;
+    left: 200px;
+    top: -37px;
+  }
+
+  .climate{
+    text-align: center;
+    margin-top: 40px;
+  }
+ 
+  .climate p{
+    position: relative;
+    left: 70px;
+    top: -25px;
+    color: aliceblue;
+  }
+
+  .temp{
+    margin-top: 8px;
+    color: aliceblue;
+    font-weight: bold;
+  }
+  .city{
+    color: aliceblue;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    margin: 8px 10px;
+  }
+  
+  .other{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+  }
+
+  .one{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .humidity, .wind{
+    font-size: 25px;
+    margin-top: -20px;
+    font-weight: 550;
+  }
